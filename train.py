@@ -35,7 +35,7 @@ parser.add_argument("--start-epoch", default=1, type=int,
                     help="manual epoch number")
 parser.add_argument("--threads", type=int, default=8,
                     help="number of threads for data loading")
-parser.add_argument("--root", type=str, default="datasets/benchmark/D100/HR/DIV2K",
+parser.add_argument("--root", type=str, default="https://github.com/batraamul/ESRT/edit/main/train.py",
                     help='dataset directory')
 parser.add_argument("--n_train", type=int, default=800,
                     help="number of training set")
